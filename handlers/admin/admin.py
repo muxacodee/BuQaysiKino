@@ -1,4 +1,4 @@
-from aiogram import Router, F
+from aiogram import Router
 from data.config import ADMIN_ID
 from aiogram.types import Message
 from aiogram.enums import ParseMode
