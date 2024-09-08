@@ -1,3 +1,9 @@
-API_TOKEN = '6779151324:AAHixF49cHSdthARNlHsDpeZpGEd0tNtHFo'
-CHANNEL_ID = '-1002491322048'
-ADMIN_ID = 7132566029
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+# Access the environment variables
+API_TOKEN = os.getenv('API_TOKEN')
+CHANNEL_ID = os.getenv('CHANNEL_ID')
+ADMIN_ID = os.getenv('ADMIN_ID')
